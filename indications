@@ -1,0 +1,32 @@
+Bonjour, j'aimerais bien savoir comment faire apparaître la
+
+phrase suivante écrite en blanc et en petite taille :
+
+" Vous êtes farceur, nous aussi ! si l'internaute met du
+
+chiffre dans le champ texte "Quel est votre nom ?"
+
+La même chose concernant le champ " Votre numéro de téléphone", la phrase suivante apparaît lorsque l'internaute saisit une lettre 
+
+ou des lettres: "Allez, sérieusement..."
+
+J'aimerais faire apparaître la phrase suivante 
+
+" Nous sommes désolés d'apprendre cela" (écrite en minuscule)
+
+lorsque l'internaute saisit dans la zone de texte multilignes : "LA BONNE AUBERGE C'EST NUL"
+
+Je définirai la police et la taille pour toutes ces phrases mais où placer les propriétés correspondantes ?
+
+
+Je me demande comment centrer le titre h1 sans le bloc class="bloc_avant_h1"
+
+Comment centrer la div "pas" sans la padding-left ?
+
+Ces 2 trucs qui seront bien positionnés grâce à flexbox, ça permettra au textarea de bien s'afficher.
+
+Bien sûr tout cela est possible avec flexbox mais comment faire ?
+
+
+Merci pour tes réponses
+Aurélien
