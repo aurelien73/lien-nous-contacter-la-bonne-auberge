@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+        <title> Nous contacter </title>
+    </head>
+    <body>
+        <header>
+            <div class="bloc_avant_h1"> </div> <!-- comment centrer le titre sans le bloc class="bloc_avant_h1"-->
+            <div id="h1">
+                <h1> Nous contacter </h1>
+            </div>
+            
+            <nav class="premier_nav">
+                <ul class="premier_ul">
+                    <li> <a href="#"> Accueil </a> </li>
+                    <li> <a href="#"> La Carte </a> </li>
+                    <li> <a href="#"> Le Chef </a> </li>
+                    <li> <a href="#"> Nous contacter </a> </li>   
+                </ul>
+            </nav>  
+        </header>
+        <div class="pas"> N'hésitez pas si vous avez la <br/> moindre question à nous contacter </div>
+        <!-- comment centrer la div "pas" sans la padding-left -->
+        <p class="coucou"> 
+        <img src="for.gif"/>
+        </p>
+        <section class="form">
+            <form method="post" action="traitement.php">
+                <p class="premier_nom">
+                    <label class="my_nom" for="nom"> Quel est votre nom ? </label> 
+                    <input type="text" name="nom" id="nom" />
+                    <span class="tooltip">  </span>
+                </p>    
+                <p class="premier_prenom">
+                    <label for="prenom"> Et votre prénom ? </label> 
+                    <input type="text" name="prenom" id="prenom" size="23" />
+                </p> 
+                <p class="naissance">
+                    <label for="naissance"> Votre date de naissance ? </label> 
+                    <input type="date" name="naissance" id="naissance" size="23" />
+                </p> 
+                <p class="mail">
+                    <label for="mail"> Votre adresse mail : </label> 
+                    <input type="email" name="mail" id="mail" size="33" />
+                </p> 
+                <p class="tel">
+                    <label for="tel"> Votre numéro de téléphone : </label> 
+                    <input type="tel" name="tel" id="tel" size="23" />
+                </p>
+                <p class="adresse"> <!-- js pour expliquer pourquoi on demande l'adresse-->
+                    <label for="adresse"> Votre adresse : </label> 
+                    <input type="text" name="adresse" id="adresse" size="33" />
+                </p>
+                <p>
+                    <label for="question">
+                    Pour toute demande ou commentaire : </label> <br/>
+                    <textarea name="question" id="question" rows="10" cols="100"> </textarea>  
+                </p>
+                <a href="#" class="bouton_marron"> Envoyer </a>
+            </form>
+        </section>
+        <footer>
+            <nav class="deuxieme_nav">
+                <ul>
+                    <li> <a href="#"> Accueil </a> </li>
+                    <li> <a href="#"> La Carte </a> </li>
+                    <li> <a href="#"> Le Chef </a> </li>
+                    <li> <a href="#"> Nous contacter </a> </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
