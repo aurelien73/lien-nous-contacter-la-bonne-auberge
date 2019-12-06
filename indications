@@ -1,4 +1,10 @@
-Bonjour, j'aimerais bien savoir comment faire apparaître la
+Bonjour, 
+
+Tu remarqueras que la div "pas" et le bloc <form> </form> ils sont un peu trop décalés sur la droite parce que ça a été codé sur du
+
+1920 * 1080, sur un pc 1600 * 900 c'est pas le même résultat
+
+J'aimerais bien savoir comment faire apparaître la
 
 phrase suivante écrite en blanc et en petite taille :
 
@@ -22,8 +28,6 @@ Je définirai la police et la taille pour toutes ces phrases mais où placer les
 Je me demande comment centrer le titre h1 sans le bloc class="bloc_avant_h1"
 
 Comment centrer la div "pas" sans la padding-left ?
-
-Ces 2 trucs qui seront bien positionnés grâce à flexbox, ça permettra au textarea de bien s'afficher.
 
 Bien sûr tout cela est possible avec flexbox mais comment faire ?
 
